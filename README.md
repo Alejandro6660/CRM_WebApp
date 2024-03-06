@@ -1,8 +1,13 @@
-# React + Vite
+# Documentción del proyecto frontend (CRM) PIA DE TALLER DE POO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Colores
 
-Currently, two official plugins are available:
+1. Color primario (#FFFAFF).
+2. Color Secundario (#050401).
+3. Tecer color (#303036).
+4. Cuarto color (#FC5130).
+5. Quinto color (#30BCED).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fuente
+
+.
