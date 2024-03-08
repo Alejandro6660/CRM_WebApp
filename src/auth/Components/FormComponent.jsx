@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useForm } from "../Hooks/useForm";
 import { InputFormComponent } from "./InputFormComponent";
-import { Validate } from "../Helpers/JS/Validate";
+import { ButtonComponent } from "../../layout/Components/ButtonComponent";
 
 export const FormComponent = () => {
   const { formState, onInputChange } = useForm({
@@ -13,6 +13,7 @@ export const FormComponent = () => {
 
   useEffect(() => {}, []);
   useEffect(() => {}, [formState]);
+
   return (
     <>
       <form className="w-full px-10" action="">
@@ -38,13 +39,8 @@ export const FormComponent = () => {
             change={onInputChange}
           />
         </div>
-        <div className="flex flex-col items-start px-3 text-textColor my-3">
-          <button
-            type="submit"
-            className="w-full text-primaryColor bg-blueColor  focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center hover:bg-opacity-90 transition-opacity ease-out"
-          >
-            Sign in
-          </button>
+        <div className="flex flex-col items-start px-3 text-textColor my-3 mt-10">
+          <ButtonComponent name="Sing in" />
         </div>
       </form>
     </>
