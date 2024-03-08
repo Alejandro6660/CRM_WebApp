@@ -1,3 +1,5 @@
+import { DOMAIN } from "../../config";
+
 export const fetchData = (
   url,
   method = "GET",
@@ -16,7 +18,9 @@ export const fetchData = (
     options.headers.Authorization = `Bearer ${jwtToken}`;
   }
 
-  const promise = fetch(url, options)
+  const URL = DOMAIN.hostdev + url;
+
+  const promise = fetch(URL, options)
     .then((response) => response.json())
     .then((data) => data);
   return getSuspender(promise);
