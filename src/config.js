@@ -1,5 +1,5 @@
 const DOMAIN = {
-  hostdev: "localhost/",
+  hostdev: "localhost:5173/",
   hostProduction: "domain.com/",
 };
 
