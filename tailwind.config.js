@@ -6,9 +6,11 @@ export default {
       colors: {
         primaryColor: "#FFFAFF",
         blackColor: "#050401",
-        blueColor: "#30BCED",
-        orangeColor: "#FC5130",
         textColor: "#303036",
+        blueColor: "#004E98",
+        blueColorLigth: "#3A6EA5",
+        blueColorDark: "#003459",
+        orangeColor: "#FF6700",
       },
     },
   },
